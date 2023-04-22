@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,100;0,300;0,500;1,400&family=Roboto:ital,wght@0,500;0,700;0,900;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(150, 187, 218, 0.767),rgba(198, 24, 233, 0.829));
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3rem;
+    overflow-y: hidden;
+}
+
+/* container div */
+.container{
+    margin: auto;
+    margin-top: 2%;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.value{
+    max-width: 30%;
+    margin-top: 15%;
+    margin: auto;
+    padding: 3rem;
+    border: 5px double black;
+}
+
+.btns{
+    max-width: 200px;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.one{
+    width: 30%;
+}
+
+.btn{
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    border: none;
+
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(228, 238, 240);
+    padding: 10px;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    background-color: rgb(197, 226, 231);
+    box-shadow: 10px 5px 50px rgb(207, 10, 118);
+}
